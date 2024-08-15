@@ -3,7 +3,7 @@ module github.com/sapcc/helm-migrate-release
 go 1.22.0
 
 require (
-	helm.sh/helm/v3 v3.15.3
+	helm.sh/helm/v3 v3.15.4
 	k8s.io/client-go v0.31.0
 )
 
@@ -112,12 +112,12 @@ require (
 	go.opentelemetry.io/otel/metric v1.19.0 // indirect
 	go.opentelemetry.io/otel/trace v1.19.0 // indirect
 	go.starlark.net v0.0.0-20230525235612-a134d8f9ddca // indirect
-	golang.org/x/crypto v0.24.0 // indirect
+	golang.org/x/crypto v0.25.0 // indirect
 	golang.org/x/net v0.26.0 // indirect
 	golang.org/x/oauth2 v0.21.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
-	golang.org/x/term v0.21.0 // indirect
+	golang.org/x/sys v0.22.0 // indirect
+	golang.org/x/term v0.22.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -128,14 +128,14 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/api v0.31.0 // indirect
-	k8s.io/apiextensions-apiserver v0.30.0 // indirect
+	k8s.io/apiextensions-apiserver v0.30.3 // indirect
 	k8s.io/apimachinery v0.31.0 // indirect
-	k8s.io/apiserver v0.30.0 // indirect
-	k8s.io/cli-runtime v0.30.0 // indirect
-	k8s.io/component-base v0.30.0 // indirect
+	k8s.io/apiserver v0.30.3 // indirect
+	k8s.io/cli-runtime v0.30.3 // indirect
+	k8s.io/component-base v0.30.3 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
-	k8s.io/kubectl v0.30.0 // indirect
+	k8s.io/kubectl v0.30.3 // indirect
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
 	oras.land/oras-go v1.2.5 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
