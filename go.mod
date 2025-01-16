@@ -2,7 +2,7 @@ module github.com/sapcc/helm-migrate-release
 
 go 1.23.0
 
-toolchain go1.23.4
+toolchain go1.23.5
 
 require (
 	helm.sh/helm/v3 v3.16.4
