@@ -92,7 +92,7 @@ type Migrator struct {
 	actionCfg *action.Configuration
 }
 
-func NewMigrator(kubeconfig string, namespace string) (*Migrator, error) {
+func NewMigrator(kubeconfig, namespace string) (*Migrator, error) {
 	kubecfg, err := clientcmd.BuildConfigFromFlags("", kubeconfig)
 	if err != nil {
 		return nil, err
@@ -114,7 +114,7 @@ func NewMigrator(kubeconfig string, namespace string) (*Migrator, error) {
 	}, nil
 }
 
-func (m *Migrator) migrateRelease(releaseName string, namespace string) error {
+func (m *Migrator) migrateRelease(releaseName, namespace string) error {
 	var helmStorage *storage.Storage
 	switch to {
 	case "configmap", "configmaps":

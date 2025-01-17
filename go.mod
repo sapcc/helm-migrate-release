@@ -2,8 +2,6 @@ module github.com/sapcc/helm-migrate-release
 
 go 1.23.0
 
-toolchain go1.23.4
-
 require (
 	helm.sh/helm/v3 v3.16.4
 	k8s.io/client-go v0.32.0
@@ -66,7 +64,6 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/huandu/xstrings v1.5.0 // indirect
-	github.com/imdario/mergo v0.3.16 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jmoiron/sqlx v1.4.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect

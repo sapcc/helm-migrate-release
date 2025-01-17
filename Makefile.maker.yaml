@@ -1,0 +1,25 @@
+# Configuration file for <https://github.com/sapcc/go-makefile-maker>
+
+metadata:
+  url: https://github.com/sapcc/helm-migrate-release
+
+binaries:
+  - name:        helm-migrate-release
+    fromPackage: .
+    installTo:   bin/
+
+golang:
+  setGoModVersion: true
+
+golangciLint:
+  createConfig: true
+
+githubWorkflow:
+  ci:
+    enabled: true
+    coveralls: true
+
+renovate:
+  enabled: true
+  assignees:
+    - Nuckal777
