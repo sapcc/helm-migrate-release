@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2025 SAP SE or an SAP affiliate company
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # helm-migrate-release
 CLI tool to move a single helm release, all releases in a namespace or all releases in a cluster between different helm storage drivers.
 

@@ -1,4 +1,4 @@
-# Copyright 2024 SAP SE
+# SPDX-FileCopyrightText: 2024 SAP SE or an SAP affiliate company
 # SPDX-License-Identifier: Apache-2.0
 
 { pkgs ? import <nixpkgs> { } }:
@@ -13,7 +13,6 @@ mkShell {
     golangci-lint
     gotools # goimports
     postgresql_17
-
     # keep this line if you use bash
     bashInteractive
   ];
