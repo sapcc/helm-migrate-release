@@ -3,7 +3,7 @@ module github.com/sapcc/helm-migrate-release
 go 1.24.0
 
 require (
-	helm.sh/helm/v3 v3.18.0
+	helm.sh/helm/v3 v3.18.2
 	k8s.io/client-go v0.33.0
 )
 
