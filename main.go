@@ -86,7 +86,7 @@ func NewMigrator(kubeconfig, namespace string) (*Migrator, error) {
 		return nil, err
 	}
 	var cfg action.Configuration
-	err = cfg.Init(kube.GetConfig(kubeconfig, "", ""), namespace, os.Getenv("HELM_DRIVER"), func(format string, v ...interface{}) {
+	err = cfg.Init(kube.GetConfig(kubeconfig, "", ""), namespace, os.Getenv("HELM_DRIVER"), func(format string, v ...any) {
 		fmt.Printf("%s\n", fmt.Sprintf(format, v...))
 	})
 	if err != nil {
