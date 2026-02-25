@@ -1,6 +1,6 @@
 module github.com/sapcc/helm-migrate-release
 
-go 1.25.0
+go 1.26
 
 require (
 	helm.sh/helm/v3 v3.20.0
