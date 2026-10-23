@@ -4,7 +4,7 @@ go 1.27
 
 require (
 	helm.sh/helm/v3 v3.20.0
-	k8s.io/client-go v0.35.0
+	k8s.io/client-go v0.37.1
 )
 
 require (
